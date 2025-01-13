@@ -50,6 +50,7 @@ main {
 .credentials_container{
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
     background-color: white;
@@ -65,7 +66,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 70%;
-    height: 50%;
+    /* height: 50%; */
     
 }
 
@@ -77,6 +78,14 @@ main {
     
     font-size: 20px;
     color: #bb2953;
+}
+
+.button_container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 31%;
 }
 
 
