@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #bb2953;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/***********************HEADER***********************/
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+
+/***************************MAIN*********************+*/
+main {
+
+    display: flex;
+    justify-content: center;
+}
+
+.credentials_container{
+
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    width: 85%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
